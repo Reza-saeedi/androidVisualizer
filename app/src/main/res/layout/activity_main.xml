@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center|top"
+   >
+
+    <TextView
+        android:id="@+id/textAmplitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-thin"
+        android:padding="10dp"
+        android:textSize="28sp" />
+
+    <TextView
+        android:id="@+id/textDecibel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-thin"
+        android:padding="10dp"
+        android:textSize="28sp" />
+
+    <TextView
+        android:id="@+id/textFrequency"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-thin"
+        android:padding="10dp"
+        android:textSize="28sp" />
+
+
+    <TextView
+        android:id="@+id/textAlarm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:visibility="gone"
+        android:textColor="@color/colorVisualizer"
+        android:fontFamily="sans-serif-thin"
+        android:text="Alarm!!"
+        android:textSize="38sp"
+         />
+
+
+    <Button
+        android:id="@+id/button_permission"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_grant_audio_permission"
+        android:layout_margin="16dp"
+        android:layout_gravity="center" />
+</LinearLayout>
